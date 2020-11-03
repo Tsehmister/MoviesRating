@@ -1,7 +1,8 @@
 'use strict'
 
-const logg = 'Hello there';
+const arr = [1, 2, 2, 3, 3, 4, 5, 5, ];
 
-console.log(logg.slice(6));
-console.log(logg.substring());
-console.log(logg.substr(6, 5));
+arr.pop();
+arr.push(10);
+
+console.log(arr);
